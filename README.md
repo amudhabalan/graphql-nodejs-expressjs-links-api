@@ -29,6 +29,7 @@ A GraphQL API that serves different types of links
       reason
       date
       url
+      dateCreated
     }
   }
 }
@@ -51,7 +52,8 @@ A GraphQL API that serves different types of links
   user(id:"96950daf-6d6c-4670-b549-ae00391df4cd") {
     name
     musicLinks(orderByDateCreatedAsc: true){
-      title
+      platform
+      audioPlayer
       url
       dateCreated
     }
@@ -63,7 +65,10 @@ A GraphQL API that serves different types of links
   user(id:"96950daf-6d6c-4670-b549-ae00391df4cd") {
     name
     showLinks{
-      title
+      venue
+      availability
+      reason
+      date
       url
       dateCreated
     }
