@@ -1,0 +1,20 @@
+{
+  "name": "links-api",
+  "version": "1.0.0",
+  "description": "API for serving links data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amud Balan",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0",
+    "lodash": "^4.17.15",
+    "uuidv4": "^6.1.1",
+    "validator": "^13.1.1"
+  }
+}
